@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Hawaii Policy Manifest Deployment">
+<!--    <listeners>-->
+<!--        <listener class-name="com.gw.core.testng.listener.NoTrace"></listener>-->
+<!--    </listeners>-->
+    <test name="Upload/Trigger/Monitor deployment">
+
+        <classes>
+            <class name="com.gw.task.deployment.DeployManifest"/>
+        </classes>
+
+    </test>
+
+</suite>
